@@ -1,5 +1,5 @@
 /* ####################  Percepduino  ####################
-*  Filename:    Percepduino.ino
+*  Filename:    Percepduino_Ej1.ino
 *  Versión:     1.0  (28-10-2025)
 *  Descripción: Perceptron simple de dos entradas,
 *               Entrenamiento con puntos introducidos manualmente
@@ -345,3 +345,4 @@ void mostrarDatosLCD(float x1, float x2, String mode)  {
   lcd.print("x2= " + String(x2, 2));
 
 } 
+
