@@ -343,4 +343,5 @@ void mostrarDatosLCD(float x1, float x2, String mode)  {
   lcd.print("x1= " + String(x1, 2));
   lcd.setCursor(0, 2);
   lcd.print("x2= " + String(x2, 2));
+
 } 
